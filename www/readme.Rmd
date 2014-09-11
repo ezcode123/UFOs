@@ -1,0 +1,18 @@
+---
+title: "UFO Reports App"
+output: html_document
+---
+
+## Introduction
+
+The National UFO Reporting Center has been maintaining a database of UFO sighting reports since 1998.  This app can be used to explore the data to look for regional trends in reported UFO shapes or increases or decreases in the number of reported sightings over the last ten years.
+
+## Description
+
+This analysis uses the last ten years of data from the [The National UFO Reporting Center Online Database](http://www.nuforc.org/webreports.html).  This is a database of reported UFO sightings from across the United States and Canada.  The data is grouped by US region (Northeast, South, Midwest, and West) or Canada.  The user can select a region and see a barchart of the reported shapes in that region.  If a region is not selected, a stacked barchart of all regions by shape is displayed.  A graph of the count of UFO reports by year is also displayed.  This graph includes a report of the slope linear least squares regression line and the p-value for that index.  A trend may be statistically significant if the p-value is less than 0.05.
+
+## Inputs
+
+To use the app, simply select a region of the US or Canada and a reported UFO shape.
+
+
